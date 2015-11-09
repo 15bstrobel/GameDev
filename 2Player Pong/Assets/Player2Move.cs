@@ -27,7 +27,5 @@ public class Manager : MonoBehaviour {
 
 	public GameObject player1;
 
-
+}
 	//...some method
-
-	player
