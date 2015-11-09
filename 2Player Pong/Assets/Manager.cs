@@ -8,6 +8,9 @@ public class Manager : MonoBehaviour {
 
 	public float min;
 	public float max;
+	public KeyCode pauseKey; 
+
+	bool pause = false;
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +20,14 @@ public class Manager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (Input.GetKey(pauseKey)) {
+			pause = !pause;
+			if (pause) {
+				Time.timeScale = 0f;
+			} else {
+				Time.timeScale = 1f;
+			}
+		}
+
 	}
 }
