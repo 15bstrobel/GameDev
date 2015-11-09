@@ -46,8 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Player1Move.cs" />
-     <Compile Include="Assets\Player2Move.cs" />
+     <Compile Include="Assets\Ball1Move.cs" />
+     <Compile Include="Assets\Manager.cs" />
+     <Compile Include="Assets\PlayerMove.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
